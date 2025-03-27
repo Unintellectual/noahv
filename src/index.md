@@ -1,26 +1,37 @@
 ---
 layout: base.html
 title: noahv
-eleventyComputed:
-  content: |
-    <div class="container">
-        <div class="middle">
-            <div class="content">
-                <h1>noahv</h1>
-                <p>email (dot) here (at) domain (dot) edu</p>
-                <p>blogs</p>
-                <div class="blogs">
-                    <a href="/blogs/2024" class="blog-link">τ</a>
-                    <a href="/blogs/2023" class="blog-link">λ</a>
-                    <a href="/blogs/2022" class="blog-link">φ</a>
-                </div>
-                <div class="links">
-                    <p><a href="/about">about →</a></p>
-                    <p><a href="/notes">notes →</a></p>
-                    <p><a href="/favorites">favorites →</a></p>
-                    <p><a href="/research">research →</a></p>
-                </div>
+---
+
+<div class="container">
+    <div class="middle">
+        <div class="content">
+            <h1><span>~</span> noahv</h1>
+            <p>noah(dot)victoriano(at)cvsu(dot)edu(dot)ph</p>
+            <h2>blogs</h2>
+            <table>
+            <tr>
+            <td>
+                <a href="/blogs/2025" class="ico" style="color:#fc0339">&#964</a>
+               <div style=" color: #fc0339;">2025</div>
+            </td>
+            <td>
+                <a href="/blogs/2023" class="ico" style="color:#fc8f4c">&#955</a>
+               <div class=date style="color:#fc8f4c;">2026</div>
+            </td>
+            <td>
+                <a href="/blogs/2023" class="ico" style="color:#75975e;">&#934</a>
+               <div class=date style="color:#75975e;">2027</div>
+            </td>
+            </tr>
+            </table>
+            <h2>links</h2>
+            <div class="links">
+                <a href="/about">about <span class="arrow">-></span></a>
+                <a href="/notes">notes <span class="arrow">-></span></a>
+                <a href="/favorites">favorites <span class="arrow">-></span></a>
+                <a href="/research">research <span class="arrow">-></span></a>
             </div>
         </div>
     </div>
----
+</div>

@@ -1,86 +1,132 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 body {
-  min-width: 320px;
-  font-family: 'IBM Plex Mono', monospace;
-  color: white;
-  background-color: #111;
-  font-size: 14px;
-  padding: 20px;
-  border: 0px;
-  margin: 0px;
+    min-width: 320px;
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    background-color: #111;
+    font-size: 14px;
+    padding: 20px;
+    border: 0px;
+    margin: 0px;
 }
 
 .container {
-  display: table;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  height: 100%;
-  width: 100%;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
 }
 .container:after {
-  content:"";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%);
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
 }
 .middle {
-  display: table-cell;
-  vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
 }
 .content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 23%;
-  min-width: 300px;
-  background-color: #111;
-  border-top: 2px solid #FFF;
-  border-bottom: 2px solid #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 23%;
+    min-width: 300px;
+    max-width: 390px;
+    background-color: #111;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+td {
+    box-sizing: 76px;
+}
+span {
+    color: #8cade6;
 }
 h1 {
-  font-size: 30px;
-  font-weight: 700;
+    font-size: 30px;
+    font-weight: 700;
 }
-a:link, a:visited {
-  background-color: #111;
-  color: #8cade6;
-  text-decoration: none;
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-weight: 400;
+}
+
+a:link,
+a:visited {
+    background-color: #111;
+    color: #8cade6;
+    text-decoration: none;
+}
+
+.arrow {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 10.667px;
+    display: inline
+    
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+    height: 76px;
+    width: 97.333px;
+    padding: 1px 1px 1px 1px;
+    div {
+        font-family: "IBM Plex Mono", monospace;
+        display: block;
+        height: 18px;
+        width: 95.333px;
+        text-align: center;
+        font-size: 14px;
+    } 
+}
+
+.ico {
+    font-size: 45px;
 }
 a:hover {
-  background-color: #232;
-  color: #7ca0de;
+    background-color: #232;
+    color: #7ca0de;
 }
 a:active {
-  background-color: #232;
-  color: #0F0;
+    background-color: #232;
+    color: #0f0;
 }
 .blogs {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 .blogs a {
-  color: white;
-  opacity: 0.5;
-  font-size: 1.2em;
-  transition: opacity 0.3s ease;
+    color: white;
+    opacity: 0.5;
+    font-size: 1.2em;
+    transition: opacity 0.3s ease;
 }
 .blogs a:hover {
-  opacity: 1;
-  background-color: transparent;
+    opacity: 1;
+    background-color: transparent;
 }
 .links a {
-  line-height: 10pt;
+    display: block;
+    line-height: 14pt;
+    text-decoration: underline;
 }
+
 .arrow {
-  font-family: Inter;
-  font-weight: 300;
-  font-size: 8pt;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 8pt;
 }

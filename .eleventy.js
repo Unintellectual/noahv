@@ -5,6 +5,12 @@ module.exports = function (eleventyConfig) {
   // Copy fonts
   eleventyConfig.addPassthroughCopy("src/fonts");
 
+
+  // Optional: Add debug logging
+  eleventyConfig.on("eleventy.before", ({ runMode }) => {
+    console.log("Eleventy is starting up!");
+  });
+
   return {
     dir: {
       input: "src",
