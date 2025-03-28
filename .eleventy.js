@@ -1,14 +1,19 @@
 module.exports = function (eleventyConfig) {
-  // Copy `src/styles` to `dist/styles`
+  // Passthrough Copy
   eleventyConfig.addPassthroughCopy("src/styles");
-
-  // Copy fonts
   eleventyConfig.addPassthroughCopy("src/fonts");
 
+  // Collections
+  eleventyConfig.addCollection("blogs", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("src/blogs/**/*.md");
+  });
 
-  // Optional: Add debug logging
-  eleventyConfig.on("eleventy.before", ({ runMode }) => {
-    console.log("Eleventy is starting up!");
+  eleventyConfig.addCollection("notes", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("src/notes/**/*.md");
+  });
+
+  eleventyConfig.addCollection("research", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("src/research/**/*.md");
   });
 
   return {

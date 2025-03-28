@@ -12,43 +12,6 @@ body {
     margin: 0px;
 }
 
-.container {
-    display: table;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: 100%;
-    width: 100%;
-}
-.container:after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-}
-.middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-.content {
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    width: 23%;
-    min-width: 300px;
-    max-width: 390px;
-    background-color: #111;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-}
-td {
-    box-sizing: 76px;
-}
 span {
     color: #8cade6;
 }
@@ -69,14 +32,6 @@ a:visited {
     color: #8cade6;
     text-decoration: none;
 }
-
-.arrow {
-    font-family: Inter;
-    font-weight: 300;
-    font-size: 10.667px;
-    display: inline
-    
-}
 td {
     text-align: center;
     vertical-align: middle;
@@ -93,8 +48,62 @@ td {
     } 
 }
 
+.container {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+/* About Page - Change Content Size */
+.about-page .content {
+    height: 600px; /* Adjusted taller height */
+}
+
+/* About Page - Change Background */
+.about-page .container {
+    background: url('/images/sagat.gif') no-repeat center center;
+    background-size: cover;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 23%;
+    min-width: 300px;
+    max-width: 390px;
+    background-color: #111;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    overflow: auto;
+}
+
+.content.large {
+    height: 1640px;
+}
+
+.arrow {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 10.667px;
+    display: inline;
+}
+
 .ico {
     font-size: 45px;
+    cursor: pointer;
+    transform: none;
+    transition: all;
 }
 a:hover {
     background-color: #232;
@@ -125,8 +134,8 @@ a:active {
     text-decoration: underline;
 }
 
-.arrow {
-    font-family: Inter;
-    font-weight: 300;
-    font-size: 8pt;
+.bold {
+    font-style: bold;
+    font-weight: 700;
+    color: #fff;
 }

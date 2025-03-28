@@ -1,6 +1,6 @@
 ---
 layout: base.html
-title: noahv
+title: home
 ---
 
 <div class="container">
@@ -16,7 +16,7 @@ title: noahv
                <div style=" color: #fc0339;">2025</div>
             </td>
             <td>
-                <a href="/blogs/2023" class="ico" style="color:#fc8f4c">&#955</a>
+                <a href="/blogs/2024" class="ico" style="color:#fc8f4c">&#955</a>
                <div class=date style="color:#fc8f4c;">2026</div>
             </td>
             <td>
@@ -28,6 +28,7 @@ title: noahv
             <h2>links</h2>
             <div class="links">
                 <a href="/about">about <span class="arrow">-></span></a>
+                <a href="https://drive.google.com/file/d/1ysidg19_UbxnHMwAm5ece5rKwkNl2SvL/view?usp=sharing">cv <span class="arrow">-></span></a>
                 <a href="/notes">notes <span class="arrow">-></span></a>
                 <a href="/favorites">favorites <span class="arrow">-></span></a>
                 <a href="/research">research <span class="arrow">-></span></a>
