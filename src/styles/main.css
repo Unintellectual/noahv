@@ -25,13 +25,14 @@ h2 {
     font-weight: 700;
     font-weight: 400;
 }
-
-a:link,
-a:visited {
-    background-color: #111;
+a {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+    text-decoration: underline;
     color: #8cade6;
-    text-decoration: none;
 }
+
+
 td {
     text-align: center;
     vertical-align: middle;
@@ -59,16 +60,28 @@ td {
     width: 100%;
 }
 
-/* About Page - Change Content Size */
 .about-page .content {
-    height: 600px; /* Adjusted taller height */
+    height: 1900px; 
+    width: max-content;
+    border: 2px solid #808080;
+    padding: 0 29px 0 29px;
+    background-color: #111;
+    color: #fff;
+    overflow: hidden;
+    transform: none;
+    transition: all;
+    outline: rgb(157, 118, 193) dashed 2px;
 }
 
-/* About Page - Change Background */
+/* TODO: add background image to the container class */
 .about-page .container {
-    background: url('/images/sagat.gif') no-repeat center center;
+    background-size: 400px;
+    background-attachment:fixed;
+    opacity:100%;
     background-size: cover;
 }
+
+
 
 .middle {
     display: table-cell;
@@ -105,28 +118,14 @@ td {
     transform: none;
     transition: all;
 }
-a:hover {
-    background-color: #232;
-    color: #7ca0de;
-}
-a:active {
-    background-color: #232;
-    color: #0f0;
-}
+
 .blogs {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.blogs a {
-    color: white;
-    opacity: 0.5;
-    font-size: 1.2em;
-    transition: opacity 0.3s ease;
-}
-.blogs a:hover {
-    opacity: 1;
-    background-color: transparent;
+a:hover{
+    color: #88FFFF;
 }
 .links a {
     display: block;
