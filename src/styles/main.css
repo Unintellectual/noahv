@@ -60,50 +60,23 @@ td {
     width: 100%;
 }
 
-.about-page .content {
-    height: 1900px; 
-    width: max-content;
-    border: 2px solid #808080;
-    padding: 0 29px 0 29px;
-    background-color: #111;
-    color: #fff;
-    overflow: hidden;
-    transform: none;
-    transition: all;
-    outline: rgb(157, 118, 193) dashed 2px;
-}
-
-/* TODO: add background image to the container class */
-.about-page .container {
-    background-size: 400px;
-    background-attachment:fixed;
-    opacity:100%;
-    background-size: cover;
-}
-
-
-
 .middle {
     display: table-cell;
     vertical-align: middle;
 }
 
 .content {
+    height: 418.6px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
-    height: 400px;
-    width: 23%;
-    min-width: 300px;
-    max-width: 390px;
     background-color: #111;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
-    overflow: auto;
+    overflow: hidden;
 }
 
-.content.large {
-    height: 1640px;
-}
+
 
 .arrow {
     font-family: Inter;
@@ -137,4 +110,24 @@ a:hover{
     font-style: bold;
     font-weight: 700;
     color: #fff;
+}
+
+
+.about-page .content {
+    height: auto; 
+    width: auto;
+    max-width: 633.6px;
+    border: 2px solid #808080;
+    padding: 0 29px 0 29px;
+    overflow: hidden;
+    outline: rgb(157, 118, 193) dashed 2px;
+    word-spacing: 0px;
+    font-size: 14px;
+}
+
+
+.about-page .container {
+    background-image: url("https://cdn.statically.io/gh/Unintellectual/cdn/master/assets/smoke.gif");
+    background-size: cover;
+
 }
