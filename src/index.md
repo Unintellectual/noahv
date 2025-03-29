@@ -1,6 +1,6 @@
 ---
 layout: base.html
-title: home
+title: noahv
 ---
 
 <div class="container">

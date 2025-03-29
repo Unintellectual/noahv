@@ -74,6 +74,7 @@ td {
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
     overflow: hidden;
+
 }
 
 
@@ -127,7 +128,7 @@ a:hover{
 
 
 .about-page .container {
-    background-image: url("https://cdn.statically.io/gh/Unintellectual/cdn/master/assets/smoke.gif");
+    background-image: url("https://cdn.statically.io/gh/Unintellectual/cdn/main/assets/smoke.gif");
     background-size: cover;
 
 }
