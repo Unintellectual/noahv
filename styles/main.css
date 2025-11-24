@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    min-width: 320px;
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    background-color: #111;
+    font-size: 14px;
+    padding: 20px;
+    border: 0px;
+    margin: 0px;
+}
+
+span {
+    color: #8cade6;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-weight: 400;
+}
+a {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #8cade6;
+}
+
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    height: 76px;
+    width: 97.333px;
+    padding: 1px 1px 1px 1px;
+    div {
+        font-family: "IBM Plex Mono", monospace;
+        display: block;
+        height: 18px;
+        width: 95.333px;
+        text-align: center;
+        font-size: 14px;
+    } 
+}
+
+.container {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    height: 418.6px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #111;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    overflow: hidden;
+
+}
+
+
+
+.arrow {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 10.667px;
+    display: inline;
+}
+
+.ico {
+    font-size: 45px;
+    cursor: pointer;
+    transform: none;
+    transition: all;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+a:hover{
+    color: #88FFFF;
+}
+.links a {
+    display: block;
+    line-height: 14pt;
+    text-decoration: underline;
+}
+
+.bold {
+    font-style: bold;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.about-page .content {
+    height: auto; 
+    width: auto;
+    max-width: 633.6px;
+    border: 2px solid #808080;
+    padding: 0 29px 0 29px;
+    overflow: hidden;
+    outline: rgb(157, 118, 193) dashed 2px;
+    word-spacing: 0px;
+    font-size: 14px;
+}
+
+
+.about-page .container {
+    background-image: url("https://cdn.statically.io/gh/Unintellectual/cdn/main/assets/smoke.gif");
+    background-size: cover;
+
+}
