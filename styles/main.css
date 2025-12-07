@@ -10,6 +10,7 @@ body {
     padding: 20px;
     border: 0px;
     margin: 0px;
+
 }
 
 span {
@@ -36,7 +37,7 @@ a {
 td {
     text-align: center;
     vertical-align: middle;
-    height: 76px;
+    height: 76x;
     width: 97.333px;
     padding: 1px 1px 1px 1px;
     div {
@@ -58,6 +59,10 @@ td {
     padding-bottom: 50px;
     height: 100%;
     width: 100%;
+
+background-image: url('https://imgcdn.dev/i/YTyEot');
+
+
 }
 
 .middle {
@@ -67,7 +72,7 @@ td {
 
 .content {
     height: 418.6px;
-    width: 300px;
+    width: 350px;
     margin-left: auto;
     margin-right: auto;
     background-color: #111;
@@ -98,6 +103,7 @@ td {
     justify-content: space-between;
     margin-top: 20px;
 }
+
 a:hover{
     color: #88FFFF;
 }
@@ -127,8 +133,7 @@ a:hover{
 }
 
 
-.about-page .container {
-    background-image: url("https://cdn.statically.io/gh/Unintellectual/cdn/main/assets/smoke.gif");
+.about-page{
+    background-image: url("/public/smoke.gif");
     background-size: cover;
-
 }
