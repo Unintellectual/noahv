@@ -14,33 +14,7 @@ body {
 }
 
 
-.container {
-    display: table;
-    /*position: absolute;*/
-    top: 0;
-    left: 0;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: 100%;
-    width: 100%;
-}
 
-.middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.content {
-    height: 418.6px;
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #111;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    overflow: hidden;
-
-}
 
 
 span {
@@ -117,6 +91,34 @@ a:hover{
     color: #fff;
 }
 
+
+.container {
+    display: table;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    height: 418.6px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #111;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    overflow: hidden;
+
+}
 
 .about-page .content {
     height: auto; 
