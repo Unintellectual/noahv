@@ -73,27 +73,13 @@ td {
     margin-top: 20px;
 }
 
-a:hover{
-    color: #88FFFF;
-}
-.links a {
-    display: block;
-    line-height: 14pt;
-    text-decoration: underline;
-}
-
-.bold {
-    font-style: bold;
-    font-weight: 700;
-    color: #fff;
-}
 
 
 .container {
     display: table;
-/*    position: relative;
+/*    position: relative;*/
     top: 0;
-    left: 0;*/
+    left: 0;
     padding-top: 50px;
     padding-bottom: 50px;
     height: 100%;
@@ -115,6 +101,22 @@ a:hover{
     border-bottom: 2px solid #fff;
     overflow: hidden;
 
+}
+
+
+a:hover{
+    color: #88FFFF;
+}
+.links a {
+    display: block;
+    line-height: 14pt;
+    text-decoration: underline;
+}
+
+.bold {
+    font-style: bold;
+    font-weight: 700;
+    color: #fff;
 }
 
 .about-page .content {
